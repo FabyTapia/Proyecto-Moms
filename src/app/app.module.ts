@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Rutas
+
+import { app_routing } from './app.routes';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './componentes/login/login.component';
@@ -24,8 +28,8 @@ import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-    
+    AppRoutingModule,
+    app_routing
   ],
   providers: [],
   bootstrap: [AppComponent]
