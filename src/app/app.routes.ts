@@ -10,6 +10,7 @@ const APP_ROUTES: Routes = [
     { path: 'login', component: LoginComponent },
     { path: 'formulario', component: FormularioComponent },
     { path: 'seccion', component: SeccionComponent },
+
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
