@@ -11,6 +11,7 @@ import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,10 +20,12 @@ import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
     FormularioComponent,
     HomeComponent,
     NavbarComponent
+  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
