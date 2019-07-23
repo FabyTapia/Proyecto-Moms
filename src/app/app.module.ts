@@ -7,6 +7,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { SeccionComponent } from './seccion/seccion.component';
 import { FormularioComponent } from './componentes/formulario/formulario.component';
 import { HomeComponent } from './componentes/home/home.component';
+import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
 
 
 
@@ -16,7 +17,8 @@ import { HomeComponent } from './componentes/home/home.component';
     LoginComponent,
     SeccionComponent,
     FormularioComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
