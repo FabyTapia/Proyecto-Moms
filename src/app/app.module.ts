@@ -19,10 +19,12 @@ import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
     FormularioComponent,
     HomeComponent,
     NavbarComponent
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
