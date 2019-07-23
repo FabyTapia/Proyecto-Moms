@@ -12,6 +12,7 @@ import { SeccionComponent } from './seccion/seccion.component';
 import { FormularioComponent } from './componentes/formulario/formulario.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
+import { RegistroComponent } from './componentes/registro/registro.component';
 
 
 
@@ -23,7 +24,8 @@ import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
     SeccionComponent,
     FormularioComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    RegistroComponent
   
   ],
   imports: [
