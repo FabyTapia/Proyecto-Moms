@@ -1,7 +1,9 @@
 .input-group{
     margin-top: 1rem;
-    width: 400px;
 }
-input{
-    margin: 20px;
+.input-group-text{
+    width: 180px;
+}
+.texto{
+    text-align: center;
 }
