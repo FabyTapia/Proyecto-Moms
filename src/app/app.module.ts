@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 // Rutas
 
 import { app_routing } from './app.routes';
@@ -13,6 +13,14 @@ import { FormularioComponent } from './componentes/formulario/formulario.compone
 import { HomeComponent } from './componentes/home/home.component';
 import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
 import { RegistroComponent } from './componentes/registro/registro.component';
+
+import { AngularFireAuth, AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireModule } from 'angularfire2';
+import { environment } from '../../src/environments/environment';
+//servicios
+import { MomsService } from './servicios/moms.service';
+import * as firebase from 'firebase/app';
+
 
 
 
@@ -31,9 +39,12 @@ import { RegistroComponent } from './componentes/registro/registro.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    app_routing
+    app_routing,
+    FormsModule,
+    AngularFireAuthModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig)
   ],
-  providers: [],
+  providers: [MomsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
