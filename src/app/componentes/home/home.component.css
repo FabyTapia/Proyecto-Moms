@@ -27,16 +27,20 @@
         margin-left: 35px;
     }
     
-    .card-body {
-        width: auto;
-        margin: 60px;
-    }
-    
     .btn {
         background-color: #F1717F !important;
         color: white;
+        width: 130px;
+        margin: 0 auto;
+        margin-top: 0.8rem;    
     }
     
     .card-title {
         color: #355e7d !important;
+    }
+    .card-body{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        padding: 2%;
     }
