@@ -20,6 +20,7 @@ import { environment } from '../../src/environments/environment';
 //servicios
 import { MomsService } from './servicios/moms.service';
 import * as firebase from 'firebase/app';
+import { VacantesComponent } from './vacantes/vacantes.component';
 
 
 
@@ -33,7 +34,8 @@ import * as firebase from 'firebase/app';
     FormularioComponent,
     HomeComponent,
     NavbarComponent,
-    RegistroComponent
+    RegistroComponent,
+    VacantesComponent
   
   ],
   imports: [

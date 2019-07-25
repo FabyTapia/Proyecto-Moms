@@ -12,7 +12,7 @@
                         background-size: cover;
                     }
                     
-                    h2 {
+                    h3 {
                         font-size: 1.5rem !important;
                         color: white;
                         padding-top: 21px;
@@ -33,7 +33,7 @@
                         color: #355e7d !important;
                     }
                     
-                    .card-body {
+                    .card-bodyOne {
                         width: 80%;
                         margin: 0 auto;
                         margin-top: 5rem;
@@ -81,4 +81,28 @@
                         color: #355e7d !important;
                         font-size: 1.1rem !important;
                         margin-bottom: 30px;
+                    }
+                    
+                    .card-header {
+                        background-color: #355e7d !important;
+                        background-size: cover;
+                        color: #F1717F !important;
+                        padding: 20px;
+                        border: #355e7d!important;
+                    }
+                    
+                    .bg-light,
+                    .card-header {
+                        margin: 0 auto;
+                    }
+                    
+                    .card-title {
+                        padding: 10px;
+                    }
+                    
+                    .card-body {
+                        width: 92%;
+                        margin: 0 auto;
+                        margin-top: 1rem;
+                        padding: 2%;
                     }
