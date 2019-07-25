@@ -4,14 +4,14 @@
             <div class="card">
                 <div class="card-body">
                     <h1 class="text-center">LOGIN</h1>
-                    <form>
+                    <form (submit)="onSubmitLogin()">
                         <div class="form-gruop">
                             <label for="email">Tu email</label>
-                            <input type="email" name="email" id="email" placeholder="Happymoms@moms.com" class="form-control">
+                            <input type="email" name="email" id="email" [(ngModel)]="email" placeholder="Happymoms@moms.com" class="form-control">
                         </div>
                         <div class="form-gruop">
                             <label for="password">Contraseña</label>
-                            <input type="password" name="password" id="password" placeholder="gatoperro123" class="form-control">
+                            <input type="password" name="password" id="password" [(ngModel)]="password" placeholder="gatoperro123" class="form-control">
                         </div>
                         <input type="text" value="ENTRAR" class="btn btn-primary btn-block btn-lg mt-5">
                     </form>
