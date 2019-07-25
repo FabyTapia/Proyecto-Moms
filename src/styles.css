@@ -13,3 +13,12 @@ body {
 .navbar {
     background-color: #445e7c !important;
 }
+
+.iconos {
+    color: #f1717f;
+    margin-right: 5px;
+}
+
+.letra {
+    color: whitesmoke;
+}
