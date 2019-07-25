@@ -1,0 +1,11 @@
+.footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #355E7D;
+}
+footer{
+    z-index: 100;
+  }
+  img{
+      margin: 5px;
+  }
