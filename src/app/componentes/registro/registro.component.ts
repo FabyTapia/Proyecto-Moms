@@ -8,8 +8,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./registro.component.css']
 })
 export class RegistroComponent implements OnInit {
-  public email : string;
-  public password : string;
+  public email:string;
+  public password:string;
   constructor(
     public momsService:MomsService,
     public rutas:Router
