@@ -12,10 +12,10 @@
                         background-size: cover;
                     }
                     
-                    h3 {
-                        font-size: 17px !important;
+                    h2 {
+                        font-size: 1.5rem !important;
                         color: white;
-                        padding-top: 25px;
+                        padding-top: 21px;
                         margin-right: 35px;
                         margin-left: 35px;
                     }
@@ -23,7 +23,8 @@
                     .btn {
                         background-color: #F1717F !important;
                         color: white;
-                        width: 130px;
+                        width: 160px;
+                        height: 40px;
                         margin: 0 auto;
                         margin-top: 0.8rem;
                     }
@@ -35,10 +36,37 @@
                     .card-body {
                         width: 80%;
                         margin: 0 auto;
-                        margin-top: 1rem;
+                        margin-top: 5rem;
                         padding: 2%;
                     }
                     
                     strong {
                         color: #F1717F !important;
+                    }
+                    
+                    .textTwo {
+                        border: 1px solid #FFFFFF;
+                        color: white;
+                        width: 82%;
+                        height: 150px;
+                        margin: 0 auto;
+                        margin-top: 3rem;
+                        border-radius: 5px;
+                    }
+                    
+                    .textThree {
+                        opacity: 1;
+                    }
+                    
+                    .btnOff {
+                        color: #355e7d !important;
+                        width: 160px;
+                        height: 40px;
+                        margin: 60px;
+                        margin-top: 0.8rem;
+                        line-height: 1.5;
+                    }
+                    
+                    h3 {
+                        font-size: 1.25rem !important;
                     }
