@@ -1,5 +1,14 @@
-
+.titulo{
+font-size: 18px;
+color: #4f4f4f;
+text-align: left;
+}
 .btn{
 background-color: #F1717f !important;
 color:white;
+}
+.containerSeccion{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }

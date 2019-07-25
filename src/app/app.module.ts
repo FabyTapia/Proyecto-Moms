@@ -22,6 +22,7 @@ import { MomsService } from './servicios/moms.service';
 import * as firebase from 'firebase/app';
 import { VacantesComponent } from './componentes/vacantes/vacantes.component';
 
+import { FooterComponent } from './componentes/shared/footer/footer.component';
 
 
 
@@ -35,7 +36,8 @@ import { VacantesComponent } from './componentes/vacantes/vacantes.component';
     HomeComponent,
     NavbarComponent,
     RegistroComponent,
-    VacantesComponent
+    VacantesComponent,
+    FooterComponent
   
   ],
   imports: [
