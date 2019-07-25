@@ -4,16 +4,18 @@
             <div class="card">
                 <div class="card-body">
                     <h1 class="text-center">REGISTRO MOMS</h1>
+                    <h6 class="aporte">El aporte de las mujeres al crecimiento, a la diversidad, a la cultura y al desarrollo es fundamental para Proyectos Moms </h6>
+                    <p>Te ofrecemos la oportunidad de encontrar empleos para ti en el tiempo que dispongas</p>
                     <form (submit)="onSubmitAddUser()">
                         <div class="form-gruop">
                             <label for="email">Email</label>
-                            <input type="email" name="correo" id="email" [(ngModel)]="email" class="form-control">
+                            <input type="email" placeholder="example@moms.com" name="correo" id="email" [(ngModel)]="email" class="form-control">
                         </div>
                         <div class="form-gruop">
                             <label for="password">Contraseña</label>
-                            <input type="password" name="contrasena" id="password" [(ngModel)]="password" class="form-control">
+                            <input type="password" placeholder="*********" name="contrasena" id="password" [(ngModel)]="password" class="form-control">
                         </div>
-                        <input type="submit" value="ENVIAR" class="btn btn-primary btn-block btn-lg mt-5">
+                        <input type="submit" value="ENVIAR" class="btn btn-primary btn-block btn-lg mt-5 ">
                     </form>
                 </div>
             </div>
