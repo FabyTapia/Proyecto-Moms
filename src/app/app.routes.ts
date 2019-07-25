@@ -5,6 +5,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { SeccionComponent } from './seccion/seccion.component';
 import { RegistroComponent } from './componentes/registro/registro.component';
+import { VacantesComponent } from './componentes/vacantes/vacantes.component';
 
 
 const APP_ROUTES: Routes = [
@@ -12,6 +13,7 @@ const APP_ROUTES: Routes = [
     { path: 'registro', component: RegistroComponent },
     { path: 'login', component: LoginComponent },
     { path: 'formulario', component: FormularioComponent },
+    { path: 'vacantes', component: VacantesComponent },
     { path: 'seccion', component: SeccionComponent },
 
     { path: '**', pathMatch: 'full', redirectTo: 'home' }

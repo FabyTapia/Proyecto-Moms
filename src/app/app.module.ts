@@ -20,7 +20,7 @@ import { environment } from '../../src/environments/environment';
 //servicios
 import { MomsService } from './servicios/moms.service';
 import * as firebase from 'firebase/app';
-import { VacantesComponent } from './vacantes/vacantes.component';
+import { VacantesComponent } from './componentes/vacantes/vacantes.component';
 
 
 
