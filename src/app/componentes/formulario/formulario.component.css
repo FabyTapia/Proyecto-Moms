@@ -9,24 +9,14 @@
 .cv{
     margin: 10px;
 }
-.inputfile {
-	width: 122px;
-    height: 24.01px;
-	opacity: 0;
-    position: absolute;  
-    
-}
-.inputfile + label {
-    font-size: 1.25em;
-    color: #355E7D;
-    display: inline-block;
-    border: 2px solid #355E7D;
-    border-radius: 4px;
-    font-size: 15px;
-    padding: 5px;
 
+.btn-primary{
+    background-color: #355E7D !important;
+    margin: 50px;
 }
-.inputfile + label {
-	cursor: pointer; /* "hand" cursor */
+.btn-outline{
+    color: #355E7D !important;  
+    margin: 10px;  
 }
+
 
