@@ -1,18 +1,3 @@
-* {
-    margin: 0%;
-    padding: 0%;
-}
-
-<<<<<<< HEAD
-.home {
-    background-image: url(/assets/img/portada.jpg);
-    height: 100vh;
-    width: 100vw;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-=======
                     * {
                         margin: 0%;
                         padding: 0%;
@@ -121,99 +106,98 @@
                         margin-top: 1rem;
                         padding: 2%;
                     }
->>>>>>> 84bc28643d3abbb2b66a1528b2a26b8789626ff6
-
-h3 {
-    font-size: 1.5rem !important;
-    color: white;
-    padding-top: 21px;
-    margin-right: 35px;
-    margin-left: 35px;
-}
-
-.btn {
-    background-color: #F1717F !important;
-    color: white;
-    width: 160px;
-    height: 40px;
-    margin: 0 auto;
-    margin-top: 0.8rem;
-}
-
-.card-title {
-    color: #355e7d !important;
-}
-
-.card-bodyOne {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 5rem;
-    padding: 2%;
-}
-
-strong {
-    color: #F1717F !important;
-}
-
-.textTwo {
-    border: 1px solid #FFFFFF;
-    color: white;
-    width: 82%;
-    height: 150px;
-    margin: 0 auto;
-    margin-top: 3rem;
-    border-radius: 5px;
-}
-
-.textThree {
-    opacity: 1;
-}
-
-.btnOff {
-    color: #355e7d !important;
-    width: 160px;
-    height: 40px;
-    margin: 60px;
-    margin-top: 0.8rem;
-    line-height: 1.5;
-}
-
-h3 {
-    font-size: 1.25rem !important;
-}
-
-.homeTwo {
-    height: 100vh;
-    width: 100vw;
-    background-color: white;
-}
-
-.firstText {
-    color: #355e7d !important;
-    font-size: 1.1rem !important;
-    margin-bottom: 30px;
-}
-
-.card-header {
-    background-color: #355e7d !important;
-    background-size: cover;
-    color: #F1717F !important;
-    padding: 20px;
-    border: #355e7d!important;
-}
-
-.bg-light,
-.card-header {
-    margin: 0 auto;
-}
-
-.card-title {
-    padding: 10px;
-}
-
-.card-body {
-    width: 92%;
-    margin: 0 auto;
-    margin-top: 1rem;
-    padding: 2%;
-}
+                    
+                    h3 {
+                        font-size: 1.5rem !important;
+                        color: white;
+                        padding-top: 21px;
+                        margin-right: 35px;
+                        margin-left: 35px;
+                    }
+                    
+                    .btn {
+                        background-color: #F1717F !important;
+                        color: white;
+                        width: 160px;
+                        height: 40px;
+                        margin: 0 auto;
+                        margin-top: 0.8rem;
+                    }
+                    
+                    .card-title {
+                        color: #355e7d !important;
+                    }
+                    
+                    .card-bodyOne {
+                        width: 80%;
+                        margin: 0 auto;
+                        margin-top: 5rem;
+                        padding: 2%;
+                    }
+                    
+                    strong {
+                        color: #F1717F !important;
+                    }
+                    
+                    .textTwo {
+                        border: 1px solid #FFFFFF;
+                        color: white;
+                        width: 82%;
+                        height: 150px;
+                        margin: 0 auto;
+                        margin-top: 3rem;
+                        border-radius: 5px;
+                    }
+                    
+                    .textThree {
+                        opacity: 1;
+                    }
+                    
+                    .btnOff {
+                        color: #355e7d !important;
+                        width: 160px;
+                        height: 40px;
+                        margin: 60px;
+                        margin-top: 0.8rem;
+                        line-height: 1.5;
+                    }
+                    
+                    h3 {
+                        font-size: 1.25rem !important;
+                    }
+                    
+                    .homeTwo {
+                        height: 100vh;
+                        width: 100vw;
+                        background-color: white;
+                    }
+                    
+                    .firstText {
+                        color: #355e7d !important;
+                        font-size: 1.1rem !important;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .card-header {
+                        background-color: #355e7d !important;
+                        background-size: cover;
+                        color: #F1717F !important;
+                        padding: 20px;
+                        border: #355e7d!important;
+                    }
+                    
+                    .bg-light,
+                    .card-header {
+                        margin: 0 auto;
+                    }
+                    
+                    .card-title {
+                        padding: 10px;
+                    }
+                    
+                    .card-body {
+                        width: 92%;
+                        margin: 0 auto;
+                        margin-top: 1rem;
+                        padding: 2%;
+                    }
