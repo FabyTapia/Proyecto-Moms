@@ -7,16 +7,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item" routerLinkActive="active">
-                <a class="nav-link" [routerLink]="['home']">Home </a>
+
+                <a class="nav-link" [routerLink]="['home']"><i class="fas iconos fa-users"></i>Sobre nosotros </a>
             </li>
             <li class="nav-item" routerLinkActive="active">
-                <a class="nav-link" [routerLink]="['login']">Log In</a>
+                <a class="nav-link" [routerLink]="['login']"><i class="fas iconos fa-search-dollar"></i>Vacantes</a>
             </li>
             <li class="nav-item" routerLinkActive="active">
-                <a class="nav-link" [routerLink]="['formulario']">Formulario</a>
+                <a class="nav-link" [routerLink]="['seccion']"> <i class="fas iconos fa-graduation-cap"></i> Moms Academy</a>
+            </li>
+        </ul>
+        <ul class="nav justify-content-end">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link letra" [routerLink]="['login']">Log In</a>
             </li>
             <li class="nav-item" routerLinkActive="active">
-                <a class="nav-link" [routerLink]="['seccion']">Secciones</a>
+                <a class="nav-link letra" [routerLink]="['logout']">Log Out</a>
             </li>
         </ul>
 
