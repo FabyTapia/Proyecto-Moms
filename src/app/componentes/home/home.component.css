@@ -70,3 +70,15 @@
                     h3 {
                         font-size: 1.25rem !important;
                     }
+                    
+                    .homeTwo {
+                        height: 100vh;
+                        width: 100vw;
+                        background-color: white;
+                    }
+                    
+                    .firstText {
+                        color: #355e7d !important;
+                        font-size: 1.1rem !important;
+                        margin-bottom: 30px;
+                    }
